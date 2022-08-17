@@ -1,0 +1,19 @@
+.headerContainer{
+  width: 100%;
+  height: auto;
+  padding-top: 18px;
+}
+
+.headerContainer__item{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 280px) {
+  .headerContainer__item{
+   display: flex;
+   flex-direction: column;
+   justify-content: unset;
+  }
+}
+

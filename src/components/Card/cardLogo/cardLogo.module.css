@@ -1,0 +1,11 @@
+.imageWrapper{
+ width: 30px;
+ height: auto;
+}
+
+.image{
+  width: 100%;
+  height: auto;
+  object-fit: center;
+
+}

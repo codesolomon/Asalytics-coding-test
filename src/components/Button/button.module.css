@@ -1,0 +1,35 @@
+.btn {
+cursor:pointer;
+padding:10px;
+border: none;
+border-radius: 8px;
+transition:.3s;
+color: #fff;
+}
+
+.btn:hover {
+  filter:brightness(0.8);
+}
+
+.primary {
+  background: var(--green);
+}
+
+.secondary {
+  background: var(--red);
+}
+
+.tertiary {
+  background: var(--black);
+  padding: 20px 40px;
+}
+
+@media (max-width: 600px) {
+  .tertiary{
+    padding: 10px 10px;
+  }
+}
+
+
+
+
