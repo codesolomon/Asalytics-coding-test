@@ -15,6 +15,7 @@ const Home: NextPage = () => {
     "asalist.result",
     []
   ) as MyQueryQuery["asalist"]["result"];
+  console.log(asalist);
 
   return (
     <div>
